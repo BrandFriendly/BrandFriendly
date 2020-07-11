@@ -1,0 +1,139 @@
+/*
+font-family: 'Candal', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Sacramento', cursive;
+
+font-family: 'Balsamiq Sans', cursive;
+*/
+*{margin: 0px; padding: 0px;}
+body{
+    overflow-x: hidden;
+}
+
+#men{
+    height: 50px;
+}
+/*menu*/
+nav{
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #568DA2;
+    font-family: 'Candal', sans-serif;
+    position: sticky
+}
+#menu{
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+    font-size: 0.8em;
+}
+
+li a:hover:not(.active) {
+  background-color: #FEB83E;
+}
+
+.active {
+  background-color: #FEB83E;
+}
+
+/*fin menu*/
+
+#titulo{
+    text-align: center;
+    font-size: 4em;
+    height: 20px;
+    font-family: 'Pacifico', cursive;
+}
+#subtitulo{
+    text-align: center;
+    font-size: 25px;
+    height: 15px;
+    font-family: 'Candal', sans-serif;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    color: #F0EEE8;
+    font-size: 35px;
+}
+p{
+    font-family: 'Candal', sans-serif;
+    color: #F0EEE8;
+}
+*bb{
+    background-color: #568DA2;
+}
+
+.vb{
+    background-color: #F5F3ED;
+}
+
+h2{
+    text-align: center;
+}
+
+#mis, #vis{
+    color: #CFE7F7;
+    font-size: 30px;
+    /*font-family: 'Balsamiq Sans', cursive;*/
+    font-family: 'Capriola', sans-serif;
+}
+.imm{
+    color: #245B6F;
+    font-family: 'Capriola', sans-serif;
+}
+
+#immm{
+    color: #245B6F;
+    font-size: 30px;
+    font-family: 'Capriola', sans-serif;
+}
+
+#sYd{
+    padding: 100px;
+    height: 300px;
+    color: #245B6F;
+}
+
+#cont1, #cont2, #cont3, #cont4{
+    height: auto;
+    padding: 100px 30px;
+    background-color: #568DA2;
+}
+
+.image{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    background-color: #F5F3ED;
+}
+
+p{
+    text-align: justify;
+}
+input{
+    width: 100%;
+}
+
+
+
+.pie{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #EBEAE8;
+}
